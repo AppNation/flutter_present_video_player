@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.doom.flutter_present_video_player">
+    <application>
+        <activity
+            android:name=".VideoViewActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar"></activity>
+    </application>
+</manifest>
