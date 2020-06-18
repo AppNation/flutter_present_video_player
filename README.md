@@ -8,7 +8,7 @@ present AVPlayerViewController and VideoView.
 
 ```yml
 dependencies:
-    flutter_present_video_player: ^0.0.2
+    flutter_present_video_player: ^0.1.0
 ```
 
 

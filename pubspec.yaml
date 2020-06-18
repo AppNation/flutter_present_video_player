@@ -1,8 +1,8 @@
 name: flutter_present_video_player
 description: present AVPlayerViewController and VideoView.
-version: 0.0.2
+version: 0.1.0
 author: protosse <liuliu1994@gmail.com>
-homepage: https://github.com/protosse/flutter_simpleVideoPlayer
+homepage: https://github.com/protosse/flutter_present_video_player
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
