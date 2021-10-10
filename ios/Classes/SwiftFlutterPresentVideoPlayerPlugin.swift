@@ -18,7 +18,7 @@ public class SwiftFlutterPresentVideoPlayerPlugin: NSObject, FlutterPlugin {
     }
 
     private func play(urlString: String) {
-        guard let rootVC = UIApplication.shared.keyWindow?.rootViewController,
+        guard let rootVC = UIApplication.shared.keyWindow?.rootViewController else { return }
             let url = URL(fileURLWithPath: urlString)
         let player = AVPlayer(url: url)
         let vc = AVPlayerViewController()
